@@ -6,7 +6,7 @@
 
 **E-mail:** halina.bahdanava@gmail.com
 
-[Linkedin](linkedin.com/in/halina-bahdanava-090892269)
+[Linkedin](https://www.linkedin.com/in/halina-bahdanava-090892269/)
 
 ***
 
