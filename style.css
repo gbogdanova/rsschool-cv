@@ -5,6 +5,10 @@
 html {
     scroll-behavior: smooth; 
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
 h3 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -110,7 +114,8 @@ p {
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
+    background-color: #879582;
 }
 .footer-icons {
     height: 100px;
@@ -121,7 +126,8 @@ p {
     height: 40px; 
 }
 .footer-icons:first-child {
-    width: 300px;
+    height: 30px; 
+    width: 350px;
 }
 .github-icon {
     height: 100px;
