@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #879582;
+    color: #fdfdfb;
+}
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 1100px;
+    background-color: #3b4432;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-items {
+    padding: 5px 10px;
+}
+.nav-items:last-child {
+    padding-right: 25px;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fdfdfb;
+}
+.nav-link:hover {
+    cursor: pointer;
+    color: #879582;
+}
+.img-name-container {
+    display: flex;
+
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color:#879582;
+    color: #fdfdfb;
+}
+.img-avatar {
+    padding: 25px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+.name-container {
+    padding-left: 25px;
+    float: right;
+    width: 800px;
+}
+.lists {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.li-contacts {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.skills-language {
+    float: left;
+    padding: 25px;
+    width: 225px;
+    background-color: #3b4432;
+    color: #fdfdfb;
+}
+.main-information {
+    float: right;
+    padding: 25px;
+    width: 775px;
+    background-color: #fdfdfb;
+    color: #3b4432;
+}
+.li-skills {
+    padding-bottom: 10px;
+}
+.js-code {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #aeaeae;
+}
+.footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #879582;
+}
+.footer-icons {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.footer-icons:last-child {
+    height: 40px; 
+}
+.footer-icons:first-child {
+    height: 30px; 
+    width: 350px;
+}
+.github-icon {
+    height: 100px;
+    width: 100px;
+}
